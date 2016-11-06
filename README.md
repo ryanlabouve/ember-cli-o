@@ -1,5 +1,8 @@
 # Ember-cli-o
 
+![https://gifcannon.s3.amazonaws.com/screencast_2016-11-06_00-29-56.gif](Demo of
+ember-cli-o)
+
 Open your ember project, from the CLI, in the browser.
 
 ## Get started
