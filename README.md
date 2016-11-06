@@ -2,7 +2,8 @@
 
 ![Demo of ember-cli-o](https://gifcannon.s3.amazonaws.com/screencast_2016-11-06_00-29-56.gif)
 
-Open your ember project, from the CLI, in the browser.
+Open your ember project, from the CLI, in the browser. Pairs well with
+[https://github.com/ryanlabouve/ember-cli-randoport](ember-cli-randoport).
 
 ## Get started
 
