@@ -14,8 +14,17 @@
 
     {{content-for "head-footer"}}
   </head>
-  <body>
+  <body style="font-family: sans-serif;">
     {{content-for "body"}}
+    <div style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      ">
+      <h2><a href="https://github.com/ryanlabouve/ember-cli-o">ryanlabouve/ember-cli-o</a></h2>
+      <img src="http://gifcannon.s3.amazonaws.com/ppppartyparrot.gif" />
+    </div>
 
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/dummy.js"></script>
