@@ -14,19 +14,19 @@ var openFn = function() {
 };
 
 module.exports = {
-  name: 'ember-cli-o',
+  name: require('./package').name,
   includedCommands: function() {
     return {
       oCommand: {
         name: 'o',
         description: 'Opens your ember project',
-        run: openFn
+        run: openFn,
       },
       openCommand: {
         name: 'open',
         description: 'Opens your ember project',
-        run: openFn
-      }
-    }
-  }
+        run: openFn,
+      },
+    };
+  },
 };
