@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: ember-cli-babel
+    versions:
+    - 7.23.1
+    - 7.25.0
+    - 7.26.1
+    - 7.26.2
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: jquery
+    versions:
+    - 3.5.1
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  - dependency-name: ember-cli-htmlbars-inline-precompile
+    versions:
+    - 3.0.1
